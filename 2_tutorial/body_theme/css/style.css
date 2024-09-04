@@ -1,0 +1,49 @@
+.container{
+     margin-top: 20px;
+    
+}
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box{
+    
+    width: 25%;
+    padding: 10px;
+    
+}
+
+.sub-box{
+   
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px;
+}
+
+.btn{
+    border: 1px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left:10px ;
+    gap: 10px;
+    
+}
+
+.btn > button{
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.theme{
+    background-color: black;
+    color: white;
+}
+
+.theme .sub-box{
+    box-shadow: rgb(97, 97, 109) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+

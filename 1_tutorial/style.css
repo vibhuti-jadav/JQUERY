@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+   
+    width: 40%;
+    height: 300px;
+    display: flex;
+    justify-content:center;
+    margin-top: 5%;
+    background-image: url(https://media.istockphoto.com/id/1298291139/photo/field-with-yellow-sunflowers-at-sunset-in-summer.webp?b=1&s=612x612&w=0&k=20&c=k_CJKxNsgFjiZ6Bc2Cv4klL2H2TMKLpNzwWcbUBBfoY=);
+    background-size: cover;
+}
+
+
+
+.box > h2{
+    font-size: 24px;
+    
+}
+
+button{
+    margin-top: 15px;
+    margin-left: 5px;
+    padding: 20px;
+    color: brown;
+    background-color: antiquewhite;
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    width: 20%;
+    height: 30px;
+}
+

@@ -1,0 +1,44 @@
+.container{
+
+    max-width: 1420px;
+    margin: auto;
+   
+}
+
+.slick-track{
+padding: 50px;
+}
+.swipe{
+    padding: 10px 30px;
+
+}
+.sub-swipe{
+    background-color: white;
+    box-shadow: 1px 1px 4px black;
+    border-radius: 10px;
+    height: 200px;
+    border: 1px solid green;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/536/385/235/chamomile-field-flowers-flowerbed-wallpaper-thumb.jpg);
+    background-size: cover;
+}
+
+.bg-color{
+    background-color: gainsboro;
+}
+
+.slick-next:before{
+    content: "➡️" !important;
+    color: black !important;
+}
+.slick-prev:before{
+    content: "⬅️" !important;
+    color: black !important;
+}
+
+.swipe{
+    transition: all 0.4s;
+}
+.slick-center{
+    transform: scale(1.2);
+}
+
